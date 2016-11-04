@@ -7,6 +7,7 @@ public class main {
         tab[0]=new Employe("salim","PDG");
         tab[0].setSalaire(100000);
         tab[0].afficher();
+ //      
         EmployePlainTemps halima=new EmployePlainTemps("halima","secretaire",5000);
         halima.calculPlainTemps(0);
         tab[1]=halima;
