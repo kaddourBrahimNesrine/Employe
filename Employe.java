@@ -24,7 +24,8 @@ public class Employe {
     return nom+" ("+fonction+") ***"+salaire;
     }
     public void afficher(){
-        System.out.println("payer a l'ordre de "+toString());
+        System.out.println("payer a l'ordre de "+toString());//la tu n'es pas obligé d'appler toString() explicitement au contraire 
+        // le fait de mettre employe1 à la place affichera directement nom+ fonction et son salaire 
     }
     
 }
